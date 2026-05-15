@@ -1,0 +1,4 @@
+claimId,type,amount,customerYears,status
+C100,car,1800,4,RECEIVED
+C101,liability,8500,1,IN_REVIEW
+C102,home,4200,6,APPROVED
