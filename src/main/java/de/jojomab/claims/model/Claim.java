@@ -1,23 +1,51 @@
 package de.jojomab.claims.model;
 
+import java.time.LocalDate;
+
 public class Claim {
     private final String id;
-    private final String type;
+    private final String claimantName;
+    private final ClaimType claimType;
     private final double amount;
-    private final int customerYears;
+    private final LocalDate date;
     private final ClaimStatus status;
+    private final int riskScore;
 
-    public Claim(String id, String type, double amount, int customerYears, ClaimStatus status) {
+    public Claim(String id, String claimantName, ClaimType claimType, double amount, LocalDate date, ClaimStatus status, int riskScore) {
         this.id = id;
-        this.type = type;
+        this.claimantName = claimantName;
+        this.claimType = claimType;
         this.amount = amount;
-        this.customerYears = customerYears;
+        this.date = date;
         this.status = status;
+        this.riskScore = riskScore;
     }
 
-    public String getId() { return id; }
-    public String getType() { return type; }
-    public double getAmount() { return amount; }
-    public int getCustomerYears() { return customerYears; }
-    public ClaimStatus getStatus() { return status; }
+    public String getId() {
+        return id;
+    }
+
+    public String getClaimantName() {
+        return claimantName;
+    }
+
+    public ClaimType getClaimType() {
+        return claimType;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public ClaimStatus getStatus() {
+        return status;
+    }
+
+    public int getRiskScore() {
+        return riskScore;
+    }
 }
