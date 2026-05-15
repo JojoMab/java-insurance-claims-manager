@@ -1,1 +1,7 @@
+$ mvn test
+[INFO] BUILD SUCCESS
+
+$ mvn exec:java -Dexec.mainClass=de.jojomab.claims.Main
 Claims report generated: reports/claims_report.txt
+Claims analyzed: 16
+High-risk claims: 4
