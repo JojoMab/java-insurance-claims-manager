@@ -1,6 +1,6 @@
-# Java Insurance Claims Manager
-
 ![Java CI](https://github.com/JojoMab/java-insurance-claims-manager/actions/workflows/java-ci.yml/badge.svg)
+
+# Java Insurance Claims Manager
 
 Dieses Bewerberprojekt zeigt Java/OOP anhand eines vereinfachten Versicherungsprozesses. Die Anwendung lädt synthetische Schadensfälle aus CSV-Dateien, validiert die Daten, berechnet Risiko-Scores und erzeugt einen Textreport. Das Projekt verbindet Softwarestruktur mit einem fachlichen Beispiel aus Finanz- und Versicherungs-IT.
 
@@ -53,7 +53,7 @@ mvn test
 mvn exec:java -Dexec.mainClass=com.example.claims.InsuranceClaimsApp
 ```
 
-## Tests
+## Tests ausführen
 
 ```bash
 mvn test
@@ -70,7 +70,7 @@ Hochrisiko-Fälle: 6
 
 ## Hinweis auf synthetische Daten
 
-Alle Daten in `data/claims_sample.csv` sind synthetisch. Das Projekt ist eine vereinfachte Simulation und verarbeitet keine echten Versicherungsdaten.
+Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
 
 ## English Summary
 
