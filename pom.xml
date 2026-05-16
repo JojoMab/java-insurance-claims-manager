@@ -1,17 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <groupId>de.jojomab</groupId>
-  <artifactId>java-insurance-claims-manager</artifactId>
+  <groupId>com.example</groupId>
+  <artifactId>claims</artifactId>
   <version>1.0.0</version>
-  <name>java-insurance-claims-manager</name>
-
   <properties>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
     <junit.version>5.10.2</junit.version>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -20,7 +16,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
   <build>
     <plugins>
       <plugin>

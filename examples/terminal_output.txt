@@ -1,7 +1,8 @@
-$ mvn test
-[INFO] BUILD SUCCESS
+Insurance Claims Report
+=======================
 
-$ mvn exec:java -Dexec.mainClass=de.jojomab.claims.Main
-Claims report generated: reports/claims_report.txt
-Claims analyzed: 16
-High-risk claims: 4
+Anzahl Schadensfälle: 18
+Gesamtsumme: 189540.00 EUR
+Hochrisiko-Fälle: 6
+C001 | Anna Weber | HEALTH | 2720.0 EUR | Risiko 3
+C004 | Jonas Bauer | ACCIDENT | 5480.0 EUR | Risiko 3
